@@ -73,7 +73,6 @@ header a {
   font-size: 20px;
 }
 .header-right span {
-  background-color: dodgerblue;
   padding: 10px 15px 10px 15px;
   font-size: 14px;
 }
@@ -81,13 +80,10 @@ header a {
 main{
   
 }
-.bg-white{
-  background-color: #fff;
-}
 
 #first-section{
-text-align: left;
-background-color: #b4d0e7;
+  text-align: left;
+  background-color: #b4d0e7;
 }
 #first-section h1{
   font-size: 5em;
@@ -106,7 +102,6 @@ background-color: #b4d0e7;
   margin-left: 10px;
 }
 .left-side a{
-  background-color: cornflowerblue;
   text-decoration: none;
   padding: 10px;
   margin-left: 10px;
@@ -117,8 +112,13 @@ background-color: #b4d0e7;
   font-size: 15px;
 }
 .right-side img{
- padding-left: 50px;
- padding-top: 60px;
+  padding-left: 50px;
+  padding-top: 60px;
+}
+.fa-arrow-down{
+  margin-top: 50px;
+  margin-left: 10px;
+  font-size: 3rem;
 }
 /* Grandezze */
 .w20{
@@ -148,4 +148,13 @@ background-color: #b4d0e7;
 }
 .black {
   color: black;
+}
+.blue{
+  color: #0061ff;
+}
+.bg-blue{
+  background-color: #0061ff;
+}
+.bg-white{
+  background-color: #fff;
 }
