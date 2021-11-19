@@ -23,14 +23,17 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-.little-section{
+.little-section {
   height: 800px;
   padding-top: 90px;
 }
-.float-left{
+.float-left {
   float: left;
 }
 
+.col {
+  text-align: left;
+}
 /* HEADER */
 header {
   position: fixed;
@@ -77,98 +80,173 @@ header a {
   font-size: 14px;
 }
 /* MAIN */
-main{
-  
+main {
 }
 /* FIRS SECTION */
-#first-section{
+#first-section {
   text-align: left;
   background-color: #b4d0e7;
 }
-#first-section h1{
+#first-section h1 {
   font-size: 5em;
   padding-top: 20px;
   padding-left: 10px;
 }
-.left-side , .right-side{
+.left-side,
+.right-side {
   display: inline;
 }
-.left-side span{
+.left-side span {
   margin-top: 10px;
 }
-.left-side p{
+.left-side p {
   margin-top: 50px;
   margin-bottom: 40px;
   margin-left: 10px;
 }
-.left-side a{
+.left-side a {
   text-decoration: none;
   padding: 10px;
   margin-left: 10px;
 }
-.left-side .button h5{
+.left-side .button h5 {
   margin-left: 10px;
   margin-top: 20px;
   font-size: 15px;
 }
-.right-side img{
+.right-side img {
   padding-left: 50px;
   padding-top: 60px;
 }
-.fa-arrow-down{
+.fa-arrow-down {
   margin-top: 50px;
   margin-left: 10px;
   font-size: 3rem;
 }
 /* SECOND SECTION */
-#second-section{
-text-align: left;
+#second-section {
+  text-align: left;
 }
-.titolo-tariffe{
-  height: 400px;
+.titolo-tariffe {
+  height: 200px;
   margin-top: 150px;
-  background-color: red;
 }
-.titolo-tariffe h3{
+.titolo-tariffe h3 {
   font-size: 3em;
   margin-bottom: 50px;
 }
+.target-tariffa {
+  text-align: center;
+  font-size: 1.2em;
+}
+.border-col {
+  border: 1px solid;
+  border-color: lightslategray;
+}
+.target-tariffa i {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tariffa-costo {
+}
+.tariffa-costo h5 {
+  font-size: 3em;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.tariffa-costo h5 + h5 {
+  font-size: 1.5em;
+}
+.border-col span {
+  display: block;
+  padding-left: 20px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.button a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+#button-prova {
+  text-align: center;
+  position: relative;
+  width: 90%;
+  height: 40px;
+  margin-left: 15px;
+}
+#button-prova a {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+hr {
+  border: none;
+  height: 1px;
+  width: 60px;
+  background-color: lightslategrey;
+}
+.tariffa-info-contenuto {
+  padding-left: 20px;
+}
+.tariffa-info-contenuto ul {
+  list-style: none;
+}
+.tariffa-info-contenuto h5 {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.tariffa-info-contenuto li {
+  margin-bottom: 30px;
+}
+.tariffa-info-contenuto i {
+  color: #0061ff;
+}
 
 /* Grandezze */
-.w20{
+.w20 {
   width: 20%;
 }
-.w30{
+.w30 {
   width: 30%;
 }
-.w40{
+.w40 {
   width: 40%;
 }
 .w50 {
   width: 50%;
 }
-.w60{
+.w60 {
   width: 60%;
 }
-.w70{
+.w70 {
   width: 70%;
 }
-.w80{
+.w80 {
   width: 80%;
 }
 /* Colours */
 .white {
   color: white;
 }
+.gray {
+  color: #667583;
+}
 .black {
   color: black;
 }
-.blue{
+.blue {
   color: #0061ff;
 }
-.bg-blue{
+.bg-blue {
   background-color: #0061ff;
 }
-.bg-white{
+.bg-white {
   background-color: #fff;
 }
