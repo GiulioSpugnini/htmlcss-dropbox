@@ -80,7 +80,7 @@ header a {
 main{
   
 }
-
+/* FIRS SECTION */
 #first-section{
   text-align: left;
   background-color: #b4d0e7;
@@ -120,6 +120,20 @@ main{
   margin-left: 10px;
   font-size: 3rem;
 }
+/* SECOND SECTION */
+#second-section{
+text-align: left;
+}
+.titolo-tariffe{
+  height: 400px;
+  margin-top: 150px;
+  background-color: red;
+}
+.titolo-tariffe h3{
+  font-size: 3em;
+  margin-bottom: 50px;
+}
+
 /* Grandezze */
 .w20{
   width: 20%;
