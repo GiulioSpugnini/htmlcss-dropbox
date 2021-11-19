@@ -19,9 +19,16 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
-.small-containe {
+.small-container {
   max-width: 1200px;
   margin: 0 auto;
+}
+.little-section{
+  height: 800px;
+  padding-top: 90px;
+}
+.float-left{
+  float: left;
 }
 
 /* HEADER */
@@ -30,7 +37,6 @@ header {
   line-height: 90px;
   vertical-align: middle;
   width: 100%;
-  background-color: red;
 }
 .header-left {
   position: absolute;
@@ -69,9 +75,70 @@ header a {
   padding: 10px 15px 10px 15px;
   font-size: 14px;
 }
+/* MAIN */
+main{
+  
+}
+.bg-white{
+  background-color: #fff;
+}
+
+#first-section{
+text-align: left;
+background-color: #b4d0e7;
+}
+#first-section h1{
+  font-size: 5em;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.left-side , .right-side{
+  display: inline;
+}
+.left-side span{
+  margin-top: 10px;
+}
+.left-side p{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 10px;
+}
+.left-side a{
+  background-color: cornflowerblue;
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 10px;
+}
+.left-side .button h5{
+  margin-left: 10px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+.right-side img{
+ padding-left: 50px;
+ padding-top: 60px;
+}
 /* Grandezze */
+.w20{
+  width: 20%;
+}
+.w30{
+  width: 30%;
+}
+.w40{
+  width: 40%;
+}
 .w50 {
   width: 50%;
+}
+.w60{
+  width: 60%;
+}
+.w70{
+  width: 70%;
+}
+.w80{
+  width: 80%;
 }
 /* Colours */
 .white {
