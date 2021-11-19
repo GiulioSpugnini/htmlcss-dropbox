@@ -34,6 +34,8 @@ body {
 /* HEADER */
 header {
   position: fixed;
+  background-attachment: scroll;
+  height: 90px;
   line-height: 90px;
   vertical-align: middle;
   width: 100%;
