@@ -1,21 +1,82 @@
 /* Generics */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  img {
-    max-width: 100%;
-  }
-  body {
-    font-family: 'Open Sans', sans-serif;
-  }
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .container {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.big-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.small-containe {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  line-height: 90px;
+  vertical-align: middle;
+  width: 100%;
+  background-color: red;
+}
+.header-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.header-right {
+  position: absolute;
+  left: 65%;
+  top: 0;
+}
+.header-left img {
+  margin-left: 30px;
+  margin-right: 50px;
+  width: 150px;
+}
+header a {
+  text-decoration: none;
+}
+
+.header-left ul,
+.header-right ul {
+  display: inline;
+  list-style: none;
+  height: 90px;
+}
+.header-left li,
+.header-right li {
+  display: inline;
+  text-align: left;
+  padding-right: 40px;
+  font-size: 20px;
+}
+.header-right span {
+  background-color: dodgerblue;
+  padding: 10px 15px 10px 15px;
+  font-size: 14px;
+}
+/* Grandezze */
+.w50 {
+  width: 50%;
+}
+/* Colours */
+.white {
+  color: white;
+}
+.black {
+  color: black;
+}
