@@ -16,11 +16,11 @@ body {
   display: table;
 }
 .big-container {
-  max-width: 1400px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 .small-container {
-  max-width: 1300px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .little-section {
@@ -37,6 +37,7 @@ body {
 header {
   position: fixed;
   background-attachment: scroll;
+  z-index: 1;
   height: 90px;
   line-height: 90px;
   vertical-align: middle;
