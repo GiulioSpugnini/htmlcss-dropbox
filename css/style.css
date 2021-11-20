@@ -317,9 +317,11 @@ hr {
   margin-bottom: 20px;
 }
 .sponsor {
+}
+/* .sponsor {
   position: absolute;
   left: 0%;
-}
+} */
 .sponsor .box {
   height: 250px;
   position: relative;
@@ -377,6 +379,32 @@ hr {
 #box-down a {
   text-decoration: none;
 }
+/* FAQ */
+#FAQ {
+  height: 500px;
+  margin-top: 150px;
+}
+#FAQ h3 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+.questions ul {
+  list-style: none;
+  line-height: 80px;
+}
+.questions ul:last-child {
+  border-bottom: 1px solid lightgray;
+}
+.questions li {
+  border-top: 1px solid lightgray;
+  position: relative;
+}
+.questions li i {
+  position: absolute;
+  top: 50%;
+  right: 3%;
+}
+
 /* Grandezze */
 .w20 {
   width: 20%;
@@ -400,7 +428,7 @@ hr {
   width: 80%;
 }
 /* Colours */
-.link-color{
+.link-color {
   color: #0966ff;
 }
 .white {
