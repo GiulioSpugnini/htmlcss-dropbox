@@ -30,7 +30,6 @@ body {
 .float-left {
   float: left;
 }
-
 .col {
   text-align: left;
 }
@@ -265,6 +264,7 @@ hr {
 /* Third-section */
 #third-section {
   margin-top: 200px;
+  margin-bottom: 100px;
 }
 #partner-left-col {
   padding-top: 60px;
@@ -282,6 +282,24 @@ hr {
 #third-section a {
   margin-bottom: 30px;
   text-align: left;
+}
+
+/* Fourth-section */
+
+.row div {
+  margin-right: 40px;
+  margin-top: 40px;
+  text-align: left;
+}
+#fourth-section img {
+  margin-top: 40px;
+}
+#fourth-section h3 {
+  font-size: 40px;
+}
+#fourth-section h5 {
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
 /* Grandezze */
