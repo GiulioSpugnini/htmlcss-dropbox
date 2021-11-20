@@ -194,7 +194,7 @@ hr {
   border: none;
   height: 1px;
   width: 60px;
-  background-color: lightslategrey;
+  background-color: lightgray;
 }
 .tariffa-info-contenuto {
   padding-left: 20px;
@@ -211,7 +211,7 @@ hr {
   margin-bottom: 30px;
 }
 .tariffa-info-contenuto i {
-  color: #0061ff;
+  color: #0093ce;
 }
 .tariffa-footer {
   margin-top: 60px;
@@ -302,6 +302,81 @@ hr {
   margin-bottom: 20px;
 }
 
+/* SPONSOR SECTION */
+#sponsor-section {
+  text-align: left;
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+#sponsor-section h3 {
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+#sponsor-section a {
+  margin-bottom: 20px;
+}
+.sponsor {
+  position: absolute;
+  left: 0%;
+}
+.sponsor .box {
+  height: 250px;
+  position: relative;
+}
+.sponsor .box img {
+  position: absolute;
+  filter: brightness(0) invert(1);
+  width: 150px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#box-middle {
+  height: 500px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+#box-middle hr {
+  margin-bottom: 40px;
+}
+#box-middle div {
+  margin-bottom: 30px;
+}
+#box-middle img {
+  width: 150px;
+}
+#box-down {
+  text-align: left;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+#box-down .small-container {
+  position: relative;
+  height: 300px;
+}
+#box-down h2 {
+  font-size: 40px;
+  position: absolute;
+  width: 500px;
+  top: 50%;
+  left: 23%;
+  transform: translate(-50%, -23%);
+}
+#box-down span {
+  position: absolute;
+  text-align: center;
+  line-height: 35px;
+  width: 350px;
+  height: 35px;
+  top: 50%;
+  right: 10%;
+}
+#box-down a {
+  text-decoration: none;
+}
 /* Grandezze */
 .w20 {
   width: 20%;
@@ -325,6 +400,9 @@ hr {
   width: 80%;
 }
 /* Colours */
+.link-color{
+  color: #0966ff;
+}
 .white {
   color: white;
 }
@@ -337,9 +415,40 @@ hr {
 .blue {
   color: #0061ff;
 }
+.bordeaux {
+  color: #61082b;
+}
+.bg-light-green {
+  background-color: #a2d39b;
+}
+.bg-bordeaux {
+  background-color: #61082b;
+}
+.bg-light-blue {
+  background-color: #b4d0e7;
+}
+.bg-yellow {
+  background-color: #ffd830;
+}
+.bg-skyblue {
+  background-color: #0093ce;
+}
 .bg-blue {
   background-color: #0061ff;
 }
+.bg-darkblue {
+  background-color: #0d2481;
+}
+.bg-floworange {
+  background-color: #ff1c1c;
+}
+.bg-red {
+  background-color: red;
+}
+
 .bg-white {
   background-color: #fff;
+}
+.bg-very-light-gray {
+  background-color: #f5f5f5;
 }
