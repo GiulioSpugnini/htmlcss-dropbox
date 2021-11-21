@@ -182,6 +182,7 @@ header a {
 
 #second-section {
     text-align: left;
+    margin-top: 250px;
 }
 
 .tariffa-col {
@@ -194,7 +195,6 @@ header a {
 
 .titolo-tariffe {
     height: 200px;
-    margin-top: 150px;
 }
 
 .titolo-tariffe h3 {
