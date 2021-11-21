@@ -158,6 +158,28 @@ header a {
 
 /* SECOND SECTION */
 
+.circle-button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.circle-button:hover {
+    border: 5px solid #0061ff;
+}
+
+.circle-button input {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 #second-section {
     text-align: left;
 }
