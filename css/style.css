@@ -102,10 +102,6 @@ header a {
 /* MAIN */
 
 
-/* main {
-} */
-
-
 /* FIRS SECTION */
 
 #first-section {
@@ -144,6 +140,7 @@ header a {
     margin-left: 10px;
     margin-top: 20px;
     font-size: 15px;
+    font-weight: lighter;
 }
 
 .right-side img {
@@ -152,9 +149,10 @@ header a {
 }
 
 .fa-arrow-down {
-    margin-top: 50px;
-    margin-left: 10px;
+    position: absolute;
     font-size: 3rem;
+    left: 7%;
+    top: 80%;
 }
 
 
@@ -197,11 +195,12 @@ header a {
 .target-tariffa i {
     padding-top: 10px;
     padding-bottom: 10px;
+    padding-right: 5px;
 }
 
 .tariffa-costo h5 {
     font-size: 1.5em;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 20px;
 }
 
@@ -215,6 +214,10 @@ header a {
     margin-bottom: 30px;
     margin-top: 20px;
     margin-bottom: 30px;
+}
+
+.border-col .data-piano {
+    margin-top: 5px;
 }
 
 .button a {
@@ -262,6 +265,7 @@ hr {
 
 .tariffa-info-contenuto li {
     margin-bottom: 30px;
+    font-size: 14px;
 }
 
 .tariffa-info-contenuto i {
@@ -418,6 +422,7 @@ hr {
 
 #box-middle hr {
     margin-bottom: 40px;
+    margin-left: 0;
 }
 
 #box-middle div {
@@ -524,9 +529,6 @@ footer .col ul {
 
 footer .col li a {
     line-height: 30px;
-}
-
-footer .col li a {
     text-decoration: none;
     font-size: 14px;
 }
