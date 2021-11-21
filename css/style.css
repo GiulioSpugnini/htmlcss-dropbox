@@ -405,7 +405,53 @@ hr {
   top: 50%;
   right: 3%;
 }
-
+/* FOOTER */
+footer {
+  height: 500px;
+}
+footer .row {
+  height: 500px;
+  padding-top: 100px;
+}
+footer .col {
+  margin: 0;
+}
+footer .col h5 {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+footer .col ul {
+  list-style: none;
+}
+footer .col li a {
+  line-height: 30px;
+}
+footer .col li a {
+  text-decoration: none;
+  font-size: 14px;
+}
+footer span {
+  width: 100%;
+  margin-top: 100px;
+  position: relative;
+}
+footer hr {
+  width: 100px;
+}
+#languages {
+  font-size: 12px;
+}
+.fa-globe-americas {
+  font-size: 14px;
+  margin-right: 3px;
+}
+.fa-sort-up {
+  vertical-align: px;
+  position: absolute;
+  top: 6px;
+  left: 100%;
+  margin-left: 3px;
+}
 /* Grandezze */
 .w20 {
   width: 20%;
@@ -446,6 +492,9 @@ hr {
 }
 .bordeaux {
   color: #61082b;
+}
+.bg-black {
+  background-color: black;
 }
 .bg-light-green {
   background-color: #a2d39b;
