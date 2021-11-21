@@ -242,6 +242,10 @@ header a {
     margin-top: 5px;
 }
 
+.button-selected:hover {
+    filter: opacity(90%);
+}
+
 .button a {
     line-height: 40px;
     text-decoration: none;
@@ -371,6 +375,7 @@ hr {
 #third-section a {
     border: 1px solid;
     font-size: 20px;
+    padding: 10px;
 }
 
 #third-section h3,
@@ -424,6 +429,7 @@ hr {
 .sponsor .box {
     height: 250px;
     position: relative;
+    padding: 10px;
 }
 
 .sponsor .box img {
@@ -433,6 +439,10 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.sponsor .border-lighter:hover {
+    background-clip: content-box;
 }
 
 #box-middle {
