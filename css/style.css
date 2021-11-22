@@ -52,7 +52,6 @@ header {
     top: 0;
     background-attachment: scroll;
     z-index: 1;
-    height: 90px;
     line-height: 90px;
     vertical-align: middle;
     width: 100%;
@@ -61,6 +60,11 @@ header {
 
 .header-right {
     text-align: right;
+}
+
+.navbar-border:hover {
+    border-bottom: 2px solid black;
+    padding-bottom: 33px;
 }
 
 header a {
@@ -78,7 +82,7 @@ header a {
 .header-right li {
     display: inline;
     text-align: left;
-    padding: 20px;
+    margin: 20px;
     font-size: 20px;
 }
 
