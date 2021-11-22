@@ -64,7 +64,7 @@ header {
 
 .navbar-border:hover {
     border-bottom: 2px solid black;
-    padding-bottom: 33px;
+    padding-bottom: 32px;
 }
 
 header a {
@@ -75,7 +75,6 @@ header a {
 .header-right ul {
     display: inline;
     list-style: none;
-    height: 90px;
 }
 
 .header-left li,
@@ -89,6 +88,32 @@ header a {
 .header-right span {
     padding: 10px 15px 10px 15px;
     font-size: 14px;
+}
+
+.sub-menu {
+    position: absolute;
+    visibility: hidden;
+    width: 250px;
+    right: 370px;
+    top: 92px;
+}
+
+.support:hover .sub-menu {
+    visibility: visible;
+}
+
+.sub-menu li {
+    line-height: 70px;
+    font-size: 16px;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    padding-left: 30px;
+}
+
+.sub-menu li:hover {
+    background-color: lightgrey;
+    filter: opacity(100%);
 }
 
 
