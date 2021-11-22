@@ -150,7 +150,8 @@ header a {
 .circle-button {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-left: 5px;
     height: 20px;
     width: 20px;
     background-color: white;
@@ -194,6 +195,8 @@ header a {
 .target-tariffa {
     text-align: center;
     font-size: 1.2em;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border: 1px solid lightgray;
 }
 
