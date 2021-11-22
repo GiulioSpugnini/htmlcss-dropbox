@@ -163,13 +163,6 @@ header a {
     border: 5px solid #0061ff;
 }
 
-.circle-button input {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
 #second-section {
     text-align: left;
     margin-top: 250px;
