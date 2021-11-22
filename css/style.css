@@ -457,7 +457,7 @@ hr {
 
 #box-down .small-container {
     position: relative;
-    height: 300px;
+    height: 250px;
 }
 
 #box-down h2 {
@@ -518,10 +518,6 @@ hr {
 
 
 /* FOOTER */
-
-footer {
-    height: 500px;
-}
 
 footer .row {
     height: 500px;
