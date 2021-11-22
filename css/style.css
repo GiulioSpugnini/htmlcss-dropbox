@@ -144,6 +144,22 @@ header a {
     top: 80%;
 }
 
+.fa-arrow-down {
+    animation: arrow 1s ease-in-out infinite;
+}
+
+@keyframes arrow {
+    0% {
+        top: 80%;
+    }
+    50% {
+        top: 85%;
+    }
+    100% {
+        top: 80%;
+    }
+}
+
 
 /* SECOND SECTION */
 
