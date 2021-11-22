@@ -543,19 +543,47 @@ hr {
     line-height: 80px;
 }
 
-.questions ul:last-child {
-    border-bottom: 1px solid lightgray;
+.questions ul:first-child {
+    border-top: 1px solid lightgray;
 }
 
 .questions li {
-    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
     position: relative;
 }
 
-.questions li i {
+.questions li:hover {
+    border-bottom: none;
+}
+
+.questions li:hover .fa-chevron-down {
+    visibility: hidden;
+}
+
+.questions li:hover .fa-chevron-up {
     position: absolute;
-    top: 50%;
+    top: 38px;
     right: 3%;
+}
+
+.questions li:hover ul {
+    height: 150px;
+}
+
+.fa-chevron-down {
+    position: absolute;
+    top: 38px;
+    right: 3%;
+}
+
+.info-questions {
+    display: none;
+}
+
+.questions li:hover .info-questions {
+    display: inline-block;
+    padding-top: 10px;
+    line-height: 30px;
 }
 
 
@@ -563,6 +591,7 @@ hr {
 
 footer .row {
     height: 500px;
+    margin-top: 100px;
     padding-top: 100px;
     position: relative;
 }
