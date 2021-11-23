@@ -580,6 +580,10 @@ hr {
     display: none;
 }
 
+.info-questions p {
+    margin-bottom: 5px;
+}
+
 .questions li:hover .info-questions {
     display: inline-block;
     padding-top: 10px;
