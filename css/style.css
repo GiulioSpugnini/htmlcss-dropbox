@@ -215,11 +215,7 @@ header a {
 }
 
 .tariffa-col {
-    margin-right: 60px;
-}
-
-#second-section .tariffa-col:last-child {
-    margin-right: 0;
+    width: calc(33% - 40px);
 }
 
 .titolo-tariffe {
@@ -243,28 +239,61 @@ header a {
     border: 1px solid lightgray;
     border-top: none;
     height: 1000px;
+    padding-left: 20px;
+}
+
+ul.icon-list li {
+    list-style-type: none;
+    padding-left: 20px;
+    text-indent: -20px;
+    margin-bottom: 20px;
+}
+
+ul.icon-list li::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+ul.icon-list li.user::before {
+    content: '\f007';
+}
+
+ul.icon-list li.user-plus::before {
+    content: '\f234';
+}
+
+ul.icon-list li.smile::before {
+    content: '\f118';
+}
+
+ul.icon-list li.folder::before {
+    content: '\f07b';
+}
+
+ul.icon-list li.pencil::before {
+    content: '\f303';
+}
+
+ul.icon-list li.check::before {
+    content: '\f00c';
+}
+
+.border-col span {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .tariffa-costo h5 {
     font-size: 1.5em;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
 }
 
 .tariffa-costo h5+h5 {
     font-size: 1em;
-}
-
-.border-col span {
-    display: block;
-    padding-left: 40px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    text-indent: -10px;
-}
-
-.border-col .data-piano {
-    margin-top: 5px;
 }
 
 .button-selected:hover {
@@ -301,26 +330,9 @@ hr {
     background-color: lightgray;
 }
 
-.tariffa-info-contenuto {
-    padding-left: 20px;
-}
-
-.tariffa-info-contenuto ul {
-    list-style: none;
-}
-
 .tariffa-info-contenuto h5 {
     font-size: 1.2em;
     margin-bottom: 30px;
-}
-
-.tariffa-info-contenuto li {
-    margin-bottom: 30px;
-    font-size: 14px;
-}
-
-.tariffa-info-contenuto i {
-    color: #0093ce;
 }
 
 .tariffa-footer {
