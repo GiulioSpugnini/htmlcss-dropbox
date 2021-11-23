@@ -706,6 +706,13 @@ footer hr {
 }
 
 
+/* Text */
+
+.text-bolder {
+    font-weight: bolder;
+}
+
+
 /* Colours */
 
 .link-color {
