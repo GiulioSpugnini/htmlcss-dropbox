@@ -584,7 +584,7 @@ hr {
 
 .questions li:hover .fa-chevron-up {
     position: absolute;
-    top: 38px;
+    top: -50px;
     right: 3%;
 }
 
